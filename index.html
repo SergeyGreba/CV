@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sergey CV</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="avatar.jpg" alt="Мой аватар" class="avatar" />
+        <div class="info-text">
+          <h1>Греба Сергей</h1>
+          <p>Я работаю системным администратором</p>
+          <p>Я люблю спорт, путешествия, программировать</p>
+
+          <h4>Мои социальные сети</h4>
+
+          <a href="https://vk.com/greba_s" target="_blank">ВКонтакте</a>
+          |
+          <a href="https://t.me/greba_s" target="_blank">Инстаграмм</a>
+        </div>
+      </div>
+
+      <div class="card bg-light-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Футбол</li>
+          <li>Шахматы</li>
+          <li>Гитара</li>
+          <li>Рисование</li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tr>
+            <td>ТВС-Новгород</td>
+            <td>Оператор видеомонтажа</td>
+            <td>2008-2008</td>
+          </tr>
+          <tr>
+            <td>АУ НОСКОЦ</td>
+            <td>Инженер программист</td>
+            <td>2009-2014</td>
+          </tr>
+          <tr>
+            <td>ФГБОУ НИППКРКС АПК</td>
+            <td>Заведующий комп. отделом</td>
+            <td>2015-н.в.</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card bg-red">
+        <h2>Мои навыки</h2>
+        <ol class="link-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ol>
+      </div>
+
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите ваше имя" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Ваш email:</label>
+              <input type="email" id="email" placeholder="Введите ваш email" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="text">Ваше сообщение:</label>
+
+            <textarea id="text" rows="2" cols="15"></textarea>
+          </div>
+
+          <input class="btn" type="submit" value="Отправить" />
+        </form>
+      </div>
+
+      <div class="position">
+        <div class="box"></div>
+      </div>
+    </div>
+  </body>
+</html>
